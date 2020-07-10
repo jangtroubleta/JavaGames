@@ -32,9 +32,9 @@ Thread clock;
 		
 		MediaTracker myTracker = new MediaTracker(this);
 		
-		bgImg = getImage(getCodeBase(), "map.gif");
+		bgImg = getImage(getCodeBase(), "..\\images\\alienShooter\\map.gif");
 		myTracker.addImage(bgImg, 0);
-		alien = getImage(getCodeBase(), "shooter.gif");
+		alien = getImage(getCodeBase(), "..\\\\images\\\\alienShooter\\\\shooter.gif");
 		myTracker.addImage(alien, 0);
 		
 		try {
