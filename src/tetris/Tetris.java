@@ -51,9 +51,9 @@ public class Tetris extends Applet implements Runnable, ActionListener {
 		off = createImage(441, 336);
 		offG = off.getGraphics();
 		
-		turnAudio = getAudioClip(getCodeBase(), "turn.au");
-		deleteAudio = getAudioClip(getCodeBase(), "delete.au");
-		gameOverAudio = getAudioClip(getCodeBase(), "gameover.au");
+		turnAudio = getAudioClip(getCodeBase(), "..\\sound\\tetris\\turn.au");
+		deleteAudio = getAudioClip(getCodeBase(), "..\\\\sound\\\\tetris\\\\delete.au");
+		gameOverAudio = getAudioClip(getCodeBase(), "..\\\\sound\\\\tetris\\\\gameover.au");
 		
 		setLayout(null);
 		soundButton = new Button("BGM ON");
